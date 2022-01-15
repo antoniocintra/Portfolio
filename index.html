@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png"    />
+    <link rel="icon"  type = "image/png" sizes= "32x32" href="imagens/favicon-32x32.png " />
+    <link rel="icon" type= "image/png"  sizes= "16x16" href="imagens/favicon-16x16.png"   />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Portfólio</title>
+</head>
+<body>
+    
+<div class="container">
+  <header id="home">
+    <div class="img-wrapper">
+      <img src="imagens/bg.jpg" alt="">
+      </div> 
+      <div class="banner">
+        <h1>  Web Developer & Front End Designer </h1>
+        <p>Antônio Eduardo Cintra Ferraz</p>
+        <button>Saiba mais</button>
+    </div>
+ </header>
+
+    <div class="hamburguer">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+        <span>fechar</span>
+    </div>
+
+     <aside class="sidebar">
+         <nav>
+             <ul class="menu">
+                 <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                 <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                 <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                 <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                 <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+             </ul>
+         </nav>
+         
+         <div class="social-media">
+             <a href="https://github.com/antoniocintra" target ="_blank"><i class="fab fa-github-alt"></i></a>
+             <a href="https://www.linkedin.com/in/antoniocintraferraz/" target ="_blank"><i class="fab fa-linkedin"></i></a>
+             </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+              <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fas fa-code"></i>
+                  <h3>Desenvolvedor</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Formação tecnóloga em Análise e desenvolvimento de sistemas pela universidade Estácio de Sá. Desenvolvimento de sites e softwares(HTML/CSS/JS/Wordpress).</p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-css3-alt"></i>
+                  <h3>CSS & HTML</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>HTML:Criação de sites com HTML e CSS, HTML semântica,acessibilidade,criação de listas, formulários, adição de audio e video,links e ancoras.</p>
+                  <p>CSS: Criação de sites responsivos, posicionamento de elementos em tela,estilização de textos, criação de layouts com flex box,animações 2D e 3D.</p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fas fa-pencil-alt"></i>
+                  <h3>Design</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p> Criação de layouts amigáveis ao usuario. Conhecimentos em UX/UI, Figma. </p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-js"></i>
+                  <h3>Javascript</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Orientação a objetos, manipulação de arrays, tratamento de erros, requisições HTTP, ECMAScript, DOM.
+                  </p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-wordpress"></i>
+                  <h3>Wordpress</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Criação de sites em wordpress, projetos de Blogs/E-comerce/Landing page entre outros.</p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fab fa-github"></i>
+                  <h3>Git e GitHub</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Versionamento de projetos, gerenciamento de repositórios, criação de repositórios locais e externos; Configuração git.</p>
+                </div>
+              </div>
+              <div class="conhecimentos-img-wrapper">
+                <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+              </div>
+            </div>
+          </section>
+
+          <div class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+              <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
+                </div>
+                <div class="card-info">
+                  <h2>Landing Page Vetcão </h2>
+                  <h3>HTML E CSS</h3>
+                  <p>Exemplo de Landing Page criada usando  HTML e CSS, para uma clínica  veterinária(fictícia). </p>
+                  <a href ="https://landing-page-vetcao.vercel.app/"><button  class="btn">Saiba Mais</button></a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
+                </div>
+                <div class="card-info">
+                  <h2>Site Editora Cintra </h2>
+                  <h3>Wordpress</h3>
+                  <p>Site criado para Editora Cintra  com Wordpress.</p>
+                  <a href ="https://www.editoracintra.com.br/"><button class="btn">Saiba Mais</button></a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="imagens/proj3.jpg" alt="Clone Netflix" />
+                </div>
+                <div class="card-info">
+                  <h2>Geekflix</h2>
+                  <h3>HTML, CSS,JS,React.</h3>
+                  <p>Projeto criado durante a Imersão React da Alura. Utilizando Html, CSS, JS e React.</p>
+                  <a href="https://geekflix-five.vercel.app/"><button class="btn">Saiba Mais</button></a>
+                </div>
+              </div>
+            </div>
+  
+
+          </section>
+
+          <section class="sessao-contato" id="contato">
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+          <div class="contato-right">
+            <h1>Contato</h1>
+            <form action="https://formsubmit.co/aecf12@hotmail.com" method="POST">
+              <div class="input-group">
+                
+                <input type="text"   name="name"  class="field" id="nome" required>
+                <label for="nome" class="field-label">Nome</label>
+              </div>
+              <div class="input-group">
+                <input type="email"   name="email" class="field" id="mail" required>
+                <label for="email" class="field-label">E-mail</label>
+                
+              </div>
+              <div class="p-form">
+                <p> Deixe seu nome e e-mail para entrarmos em contato.</p>
+              </div>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+              <button type="submit" class=" btn btn-submit">Enviar </button>
+            </form>
+          </div>
+        </div>
+          </section>
+
+          <section class="sessao-orcamento" id="orcamento">
+            <div class="orcamento-wrapper">
+              <h1>Faça um orçamento</h1>
+              <form action="https://formsubmit.co/aecf12@hotmail.com" method="POST">
+                <label for="qtde">Quantidade de Páginas</label>
+                <input type="number" min="1" name="qtde" id="qtde">
+                <label for="js">Preciso de um script JS </label>
+                <input type="checkbox" name="js" id="js">
+                <label >Layout</label>
+                <div class="group-layout">
+                  <div>
+                    <input type="radio" name="layout" id="layout-s">
+                    <label for="layout-s">Preciso de um layout</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="layout" id="layout-n">
+                    <label for="layout-n"> Já tenho  um layout</label>
+                  </div>
+                </div>
+                <label for="prazo">Prazo(semanas)</label>
+                <input type="number" name="prazo" id="prazo" min="1" max="10">
+                <label id="preco">R$ 0,00</label>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+                <button class="btn btn-orcamento" type="submit">Enviar</button>
+              </form>
+            </div>
+          </section>
+
+          <footer>
+            <div class="footer-content">
+              <p>
+                Copyright &copy; 2021 - Antônio Eduardo -Todos os direitos reservados
+              </p>
+              <div class="social-list">
+                <ul>
+                  <li><a href="https://github.com/antoniocintra" target ="_blank"><i class="fab fa-github"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/antoniocintraferraz/" target ="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+          <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+          </a>
+
+      </div>    
+</body>
+
+ <script src="script.js"></script> 
+</html>
